@@ -3,8 +3,8 @@ import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Compare_regexService } from './compare_regex.service';
 import { Regex_Dto } from './regex.dto';
 
-@ApiTags('regex')
-@Controller('regex')
+@ApiTags('Compare_Regex')
+@Controller('Compare_Regex')
 @Controller()
 export class Compare_regexController {
   constructor(private readonly comreg_ser: Compare_regexService) {}
